@@ -1,0 +1,38 @@
+[
+  {
+    "id": "DOC-01",
+    "title": "Remote Work & Hybrid Policy",
+    "category": "People Operations",
+    "content": "Employees may work remotely up to three days per week with manager approval. Teams should maintain at least two shared collaboration days in the office or another agreed location. New hires are expected to establish their working cadence with their manager during their first two weeks. Employees working remotely are responsible for maintaining a reliable internet connection, a secure workspace, and availability during their team's core collaboration hours of 10:00 AM to 3:00 PM local time."
+  },
+  {
+    "id": "DOC-02",
+    "title": "Customer Refund Policy",
+    "category": "Customer Success",
+    "content": "Customers may request a refund within 30 calendar days of purchase for eligible plans. Refund requests should include the account email, order identifier, and reason for the request. Customer Success reviews requests within two business days. Approved refunds are returned to the original payment method and typically appear within five to ten business days depending on the financial institution. Annual enterprise contracts follow their individual agreement terms."
+  },
+  {
+    "id": "DOC-03",
+    "title": "Security Incident Response Guide",
+    "category": "Security",
+    "content": "Employees who discover a suspected security incident should report it immediately through the internal security incident channel and notify the security on-call contact. Do not investigate beyond what is necessary to preserve evidence, and do not communicate details externally. The security team triages incidents by severity, preserves relevant logs, identifies affected systems, and coordinates containment. Potential exposure of credentials should be treated as urgent and the affected credentials should be rotated."
+  },
+  {
+    "id": "DOC-04",
+    "title": "Product Release Process",
+    "category": "Engineering",
+    "content": "Production releases require a completed pull request review, passing automated checks, an identified rollback plan, and a release owner. High-risk changes should receive an additional review from the owning team. Release notes should summarize user-facing changes, migration requirements, and known limitations. After deployment, the release owner monitors application health and key metrics before declaring the release complete."
+  },
+  {
+    "id": "DOC-05",
+    "title": "Employee Learning & Development",
+    "category": "People Operations",
+    "content": "Employees may request up to $1,000 per calendar year for approved professional development expenses. Eligible expenses include courses, conferences, technical books, and certification exams that support the employee's role or growth plan. Employees should submit the request before purchasing when possible. Reimbursement requires an itemized receipt and manager approval. Unused annual learning funds do not roll over to the following year."
+  },
+  {
+    "id": "DOC-06",
+    "title": "Data Retention Guidelines",
+    "category": "Security",
+    "content": "Operational logs are retained for 90 days by default unless a longer period is required for an approved security investigation or legal obligation. Customer data retention follows the applicable product agreement and deletion commitments. Teams should avoid retaining sensitive information longer than necessary for a documented business purpose. Data deletion requests should be routed to the privacy team for review."
+  }
+]
