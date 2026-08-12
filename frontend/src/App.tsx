@@ -52,7 +52,9 @@ function App() {
     setLoading(true);
     setError("");
     try {
-      const response = await fetch("/api/search", {
+      const apiBaseUrl = import.meta.env.VITE_API_URL || "";
+    
+      const response = await fetch(`${apiBaseUrl}/api/search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: trimmed, top_k: 4 }),
